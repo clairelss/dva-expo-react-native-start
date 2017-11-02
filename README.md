@@ -4,7 +4,7 @@ A React Native boilerplate with dva.js and expo
 ## Some reference URL 
 
 * [Expo](https://docs.expo.io)
-* [React Navigation] (https://reactnavigation.org/docs/intro)
+* [React Navigation](https://reactnavigation.org/docs/intro)
 * [Antd Mobile](https://mobile.ant.design)
 
 ## Start
