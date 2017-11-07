@@ -2,13 +2,15 @@ import { connect } from 'dva-no-router';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Button, } from 'react-native';
 import { NavigationActions } from 'react-navigation';
+import MainPage from '../components/MainPage'
 
 class Home extends Component {
   static navigationOptions = {
     title: 'Home',
   };
   render() {
-    return <View style={styles.container}>
+    return <MainPage />
+    {/*<View style={styles.container}>
       <Text style={styles.welcome}>
         Welcome to React Native + Dva.js!
       </Text>
@@ -20,7 +22,7 @@ class Home extends Component {
         Cmd+D or shake for dev menu
       </Text>
       <Button title="Login" onPress={this.handlePressLogin} />
-    </View>
+    </View>*/}
   }
   handlePressLogin = () => {
     this.props.dispatch(NavigationActions.navigate({ routeName: 'Login' }));

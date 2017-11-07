@@ -1,0 +1,1 @@
+export const apiUrl = 'http://mapp.lanxie.net.cn/api';
